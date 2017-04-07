@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+
+    tools:context="com.example.dell.calbmi.MainActivity">
+
+    <!-- This is for the EditText and CheckBox in the first row-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edtAmount"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Enter Amount"
+            android:inputType="numberDecimal" />
+
+        <RadioGroup
+            android:id="@+id/grpHst"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <RadioButton
+                android:id="@+id/radHst"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HST" />
+
+            <RadioButton
+                android:id="@+id/radNoHst"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No HST" />
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <!-- This is for the Button and Total TextView in the first row-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnCalculate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Calculate"/>
+
+        <TextView
+            android:id="@+id/txtTotal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:layout_marginLeft="15dp"
+            android:text="Total:"
+            android:textAppearance="?android:textAppearanceLarge" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
