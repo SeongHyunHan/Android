@@ -1,0 +1,7 @@
+#Thu Jan 05 14:02:14 EST 2017
+base.0=F\:\\AndroidStudio\\PasswordKeeper\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_1fbd22f415a2d26f6dda56d937e2f51162618b8d
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=F\:\\AndroidStudio\\PasswordKeeper\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_f1d56d22638e6c8fcf606e3acc712784e6313a9a\\classes.dex
+base.1=F\:\\AndroidStudio\\PasswordKeeper\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_f1d56d22638e6c8fcf606e3acc712784e6313a9a
+file.0=F\:\\AndroidStudio\\PasswordKeeper\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_1fbd22f415a2d26f6dda56d937e2f51162618b8d\\classes.dex
